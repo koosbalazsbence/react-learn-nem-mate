@@ -71,7 +71,7 @@ export default function InstrumentCreatePage() {
 						placeholder="150000"
 						value={price}
 						min={25000}
-						onChange={(e) => setPrice(+e.target.value)}
+						onChange={(e) => setPrice(+e.target.valueAsNumber)}
 					/>
 				</div>
 				<div className="mb-4">
@@ -88,7 +88,7 @@ export default function InstrumentCreatePage() {
 						placeholder="1"
 						value={quantity}
 						min={1}
-						onChange={(e) => setQuantity(+e.target.value)}
+						onChange={(e) => setQuantity(+e.target.valueAsNumber)}
 					/>
 				</div>
 				<div className="mb-4">

@@ -57,7 +57,7 @@ export default function InstrumentListPage() {
 										</div>
 										<div className="w-full p-2 mt-4">
 											<img
-												className="w-full h-64 object-contain mx-auto"
+												className="w-full h-96 object-contain mx-auto"
 												src={
 													instrument.imageURL
 														? instrument.imageURL
